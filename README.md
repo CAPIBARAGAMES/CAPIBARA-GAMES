@@ -1,0 +1,1 @@
+<h1>Pagina principal de CAPIBARA GAMES</h1>
