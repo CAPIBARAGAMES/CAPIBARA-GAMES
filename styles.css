@@ -1,10 +1,24 @@
-.title{
-    background-color: aqua;
-    text-align: center;
-    font-size: 50px;
+@media (prefers-reduced-motion: no-preference){
+    *{
+        scroll-behavior: smooth;
+    }
 
 }
-h1{
+header{
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #1b1b32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
 
+h1{
+    text-align: center;
+    color: aqua;
+    font-size: 100px;
 }
 
