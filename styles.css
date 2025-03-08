@@ -13,8 +13,9 @@
   
 
 body{
+    justify-content: space-around;
     margin: 0;
-    background-color: #ffffff;
+    background-color: #93DB46;
     color: #1b1b32;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,7 +26,6 @@ header{
     height: 80px;
     background-color: #333333;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
@@ -39,9 +39,17 @@ header{
 }
 
 
-h2{
-    font-family: "Jersey 10", serif;
-    margin-top: 100px;
-    color: #0a0a23;
-    font-size: medium;
+#nav{
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+
+#photo{
+    
+    margin: 100px;
+    background-color: #333333;
+    width: 80%;
+    height: 300px;
+
 }
