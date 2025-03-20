@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 :root{
     --font-jersey10:"Jersey 10", sans-serif;
     --font-montserrat: "Montserrat", sans-serif;
@@ -10,15 +15,13 @@
 
 body{
     box-sizing: border-box;
-    max-width: 100%;
     background-color: var(--color-terciario);
 }
 
 .header{
-    padding: 1%;
+    padding: 1% 0% 0% 1%;
     background-color: var(--color-primario);
-    height: 5rem;
-    width: 100%;
+
 }
 
 .header__menu{
@@ -27,6 +30,7 @@ body{
 }
 
 .header__menu_link{
+    justify-content: space-between;
     color: var(--color-secundario);
     font-family: var(--font-jersey10);
     font-size: 4rem;
@@ -35,8 +39,14 @@ body{
 
 .header__redes{
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    gap: 8px;
+}
+
+.header__redes__link{
+    background-color:aqua;
+    color: var(--color-secundario);
+
 }
 
 .header__logo{
@@ -48,10 +58,11 @@ body{
     font-family: var(--font-jersey10);
 }
 
-*{
-    padding: 0;
-    margin: 0;
+.presentacion__superior_foto{
+    display: flex;
+    width: 50%;
 }
+
 
 p{
     font-family: var(--font-montserrat);
