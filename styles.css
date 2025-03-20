@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -14,7 +15,6 @@
 }
 
 body{
-    box-sizing: border-box;
     background-color: var(--color-terciario);
 }
 
@@ -30,7 +30,6 @@ body{
 }
 
 .header__menu_link{
-    justify-content: space-between;
     color: var(--color-secundario);
     font-family: var(--font-jersey10);
     font-size: 4rem;
@@ -44,6 +43,8 @@ body{
 }
 
 .header__redes__link{
+    display: flex;
+    align-items: center;
     background-color:aqua;
     color: var(--color-secundario);
 
@@ -54,16 +55,14 @@ body{
 }
 
 
-.presentacion__superior{
-    font-family: var(--font-jersey10);
-}
-
-.presentacion__superior_foto{
-    display: flex;
-    width: 50%;
-}
-
 
 p{
     font-family: var(--font-montserrat);
 }
+
+.footer{
+    background-color: var(--color-primario);
+}
+
+
+
