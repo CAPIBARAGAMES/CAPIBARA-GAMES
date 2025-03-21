@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fuente-jersy10:"Jersey 10", sans-serif;
+    --fuente-roboto:"Roboto", sans-serif;
+    --color-primario:#333333;
+    --color-secundario:#85D13E;
+    --color-terciario:#FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    size: 100vh;
+    box-sizing: border-box;
+    background-color: var(--color-primario);
+}
+
+.header{
+    width: 100%;
+    background-color: aqua ;
+}
+
+.header__redes{
+    padding: 5px;
+    display: flex;
+    background-color: var(--color-secundario);
+    padding: 0.5%;
+    gap: 10px;
+}
+
+.header__redes__lik{
+    color: var(--color-primario);
+    size: 1rem;
+    text-decoration: none;
+}
+
+.header__menu{
+    font-size: 3rem;
+    font-family: var(--fuente-jersy10);
+    padding: 0% 2% 0% 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primario);
+    gap: 1rem;
+}
+
+.header__menu__link__logo{
+    width: 9rem;
+}
+
+.header__menu__link{
+    text-decoration: none;
+    color: var(--color-terciario);
+    display: flex;
+    padding: auto;
+}
+
