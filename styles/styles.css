@@ -18,7 +18,7 @@ body{
     size: 100vh;
     box-sizing: border-box;
     background-color: var(--color-primario);
-    min-width: 300px;
+    min-width: 500px;
 }
 
 .header{
@@ -73,9 +73,9 @@ body{
 }
 
 .presentacion__texto{
-    background-color: aqua;
+    display: flex;
     align-items: center;
-    padding: 2% 25% 0%;
+    padding: 0% 25% 5%;
 }
 
 .titulo{
@@ -85,13 +85,25 @@ body{
 }
 
 .titulo_h1{
+    font-family: var(--fuente-jersy10);
     display: flex;
     justify-content:space-between;
-    font-size: 4rem;
+    font-size: 10rem;
+    color: var(--color-terciario);
 }
 
 .presentacion__texto_slogan{
+    font-size: 2rem;
     font-family: var(--fuente-roboto);
+}
+
+.footer{
+    padding: 5px;
+    display: flex;
+    color: var(--color-primario);
+    font-family: var(--fuente-roboto);
+    background-color: var(--color-secundario);
+    justify-content: center;
 }
 
 
