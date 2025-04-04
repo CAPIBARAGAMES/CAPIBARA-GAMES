@@ -97,7 +97,7 @@ body{
     font-family: var(--fuente-roboto);
 }
 
-.presentacion__texto_subtitulo{
+.presentacion__about_subtitulo{
     color: var(--color-terciario);
     font-size: 2rem;
     font-family: var(--fuente-roboto);
