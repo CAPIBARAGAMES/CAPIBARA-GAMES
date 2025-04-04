@@ -92,7 +92,13 @@ body{
     color: var(--color-terciario);
 }
 
-.presentacion__texto_slogan{
+.presentacion__slogan{
+    font-size: 2rem;
+    font-family: var(--fuente-roboto);
+}
+
+.presentacion__texto_subtitulo{
+    color: var(--color-terciario);
     font-size: 2rem;
     font-family: var(--fuente-roboto);
 }
