@@ -88,6 +88,8 @@ body{
 .presentacion_video_mp4{
     display: flex;
     max-width: 100%;
+    height: 50%;
+    width: auto;
     filter: blur(0.5px);
 }
 
@@ -131,8 +133,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 
 .presentacion__juegos_titulo{
     font-family: var(--fuente-jersy10);
@@ -141,14 +143,45 @@ body{
     text-shadow: var(--border-text-1);
 }
 
+.presentacion__juegos__itchio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.presentacion__juegos__texto{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);;
+    border-radius: 1%;
+    backdrop-filter: blur(0.5);
+}
+
+.presentacion__juegos__itchio__link{
+    width: 20rem;
+    height: auto;
+}
+
 .presentacion__juegos_parrafo{
     padding: 0,25%, 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-radius: 5%;
     transition: var(--color-quint) 0.3;
     text-shadow: var(--border-text-1); 
 }
+
+
+.footer{
+    padding: 5px;
+    display: flex;
+    color: var(--color-primario);
+    font-family: var(--fuente-roboto);
+    background-color: var(--color-secundario);
+    justify-content: center;
+}
+
+/* about*/
 
 .presentacion__about_subtitulo{
     color: var(--color-terciario);
@@ -162,18 +195,6 @@ body{
     font-family: var(--fuente-roboto);
     color: var(--color-terciario);
 }
-
-
-
-.footer{
-    padding: 5px;
-    display: flex;
-    color: var(--color-primario);
-    font-family: var(--fuente-roboto);
-    background-color: var(--color-secundario);
-    justify-content: center;
-}
-
 
 
 /* Transforms */
@@ -191,7 +212,11 @@ body{
 
 .header__redes__lik:hover{
     color: var(--color-terciario);
-    size: 2rem;
+}
+
+.presentacion__juegos_parrafo:hover{
+    color: var(--color-quint);
+    font-size: 4rem;
 }
 
 
